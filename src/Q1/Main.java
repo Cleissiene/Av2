@@ -26,7 +26,7 @@ public class Main {
         int ocu = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe quantos horários já foram marcados", "Horários Ocupados"
                 , JOptionPane.PLAIN_MESSAGE));
 
-        escritorio.setHorariosDis(ocu);
+        escritorio.setHorariosOcu(ocu);
 
        int horariosLivres = escritorio.horariosRestantes();
 
